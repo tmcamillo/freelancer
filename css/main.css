@@ -84,16 +84,21 @@ nav li a:hover {
 
 .bg-white {
     background-color: white;
+    padding: 70px 0 60px 0;
 }
 
 .portfolio h2 {
     font-size: 32px;
-    margin: 60px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .portfolio {
     text-align: center;
     color: #2c3e50;
+}
+
+.dark-line-star {
+    margin: 13px;
 }
 
 .dark-line-star::before, .dark-line-star::after {
@@ -102,7 +107,7 @@ nav li a:hover {
     width: 70px;
     background-color: #2c3e50;
     display: inline-block;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .dark-line-star i {
@@ -111,13 +116,60 @@ nav li a:hover {
     align-items: center;
 }
 
-.two-rows { 
-    padding: 20px;
-    display: inline-block;
-    position: relative;
+.two-rows img { 
+    max-width: 300px;
+    width: auto;
+    padding: 8px;
 }
 
+.about h2 {
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    text-align: center;
+}
 
+.about {
+    text-align: center;
+    color: white;
+}
 
+.text-box {
+    display: flex;
+    justify-content: center;
+}
+
+.text-box p {
+    font-size: 18px;
+    max-width: 349px;
+    width: auto;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+}
+
+.button {
+    border: 1px solid white ;
+    width: 190px;
+    height: 45px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0px 0px 50px 0px;
+}
+
+.button i {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.button p {
+    margin: 0px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif; 
+    margin-top: 10px;
+}
 
 
